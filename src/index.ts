@@ -16,8 +16,8 @@ class MrCoxallStack {
 
   public showStack () {
     // method for printing the stack
-    for (let loopCounter = this.aStack.length - 1; loopCounter >= 0; loopCounter--) {
-      console.log(this.aStack[loopCounter])
+    for (var val of this.aStack.reverse()) {
+      console.log(val)
     }
   }
 }
